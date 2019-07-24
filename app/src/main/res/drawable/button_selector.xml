@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/button_shape_clickable_false" android:state_enabled="false"/> <!--按键不能点击时-->
+    
+    <item android:drawable="@drawable/button_shape_clickable_true" android:state_enabled="true"/> <!--按键可以点击时-->
+</selector>

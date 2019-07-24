@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyCC</string>
+    
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_login_sign_up">注册</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    
+    <!-- Strings related to signUp -->
+    <string name="prompt_sign_up_username">账号</string>
+    <string name="prompt_sign_up_nickname">昵称</string>
+    <string name="prompt_sign_up_password">密码</string>
+    <string name="prompt_sign_up_password_second">确认密码</string>
+    <string name="action_sign_up">注册</string>
+    <string name="error_sign_up_invalid_username">账号正则：[A-Za-z]\\w{4,15}</string>
+    <string name="error_sign_up_duplicated_username">账号已存在</string>
+    <string name="error_sign_up_invalid_nickname">昵称不能为空</string>
+    <string name="error_sign_up_invalid_password">密码正则：\\w{6,16}</string>
+    <string name="error_sign_up_invalid_confirm_password">确认密码不一致</string>
+</resources>
